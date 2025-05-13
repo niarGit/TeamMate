@@ -74,3 +74,7 @@ CREATE TABLE logs (
 
 -- 12. Optional: Display success message once all tables are created
 \echo 'Teammate database and tables created successfully.';
+
+-- 13. Grant permission 
+GRANT SELECT, INSERT, UPDATE, DELETE ON members TO teammate_user;
+GRANT USAGE, SELECT ON SEQUENCE members_id_seq TO teammate_user;
