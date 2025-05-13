@@ -1,0 +1,1 @@
+java -cp "lib\postgresql-42.7.2.jar;bin" Main

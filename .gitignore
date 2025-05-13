@@ -1,0 +1,4 @@
+*.class
+bin/
+teammates.ser
+.DS_Store
